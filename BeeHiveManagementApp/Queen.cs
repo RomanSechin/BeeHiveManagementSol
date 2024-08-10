@@ -7,7 +7,7 @@ namespace BeeHiveManagementApp
         public const float HONEY_PER_UNASSIGNED_WORKER = 0.5f;
 
         private Bee[] workers = new Bee[0];
-        private float eggs = 0;
+        private float eggs = 0f;
         private float unassignedWorkers = 9;
         
         public string StatusReport { get; private set; }

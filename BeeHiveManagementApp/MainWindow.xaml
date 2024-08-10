@@ -19,9 +19,9 @@
             <Label Content="Job Assignments" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="18"/>
             <StackPanel Grid.Row="1" VerticalAlignment="Top" Margin="20">
                 <ComboBox x:Name ="jobSelector" FontSize="18" SelectedIndex="0" Margin="0,0,0,20" >
-                    <ListBoxItem Content="Nectar Collector"/>
-                    <ListBoxItem Content="Honey Manufactureer"/>
-                    <ListBoxItem Content="Egg Care"/>
+                    <ListBoxItem Content="NectarCollector"/>
+                    <ListBoxItem Content="HoneyManufacturer"/>
+                    <ListBoxItem Content="EggCare"/>
                 </ComboBox>
                 <Button Content="Assign this job to a bee " FontSize="18px" Click="AssignJob_Click"/>                
             </StackPanel>

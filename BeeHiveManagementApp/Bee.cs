@@ -1,7 +1,7 @@
 ﻿namespace BeeHiveManagementApp
 {
-    class Bee {
-        public virtual float CostPerShift { get; }
+    abstract class Bee {
+        public abstract float CostPerShift { get; }
         public string Job { get; private set; }
         public Bee(string job)
         {

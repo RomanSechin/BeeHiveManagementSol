@@ -39,11 +39,11 @@ namespace BeeHiveManagementApp
             WorkShift_Click(this, new RoutedEventArgs());
         }
 
-        private void WorkShift_Click(Object sender, RoutedEventArgs e) { 
+        private void WorkShift_Click(object sender, RoutedEventArgs e) { 
             queen.WorkTheNextShift();
             statusReport.Text = queen.StatusReport;
         }
-        private void AssignJob_Click(Object sender, RoutedEventArgs e) {
+        private void AssignJob_Click(object sender, RoutedEventArgs e) {
             queen.AssignBee(jobSelector.Text);            
             statusReport.Text = queen.StatusReport;
         }        
